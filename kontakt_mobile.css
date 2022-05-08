@@ -46,19 +46,22 @@ nav ul a{
 #main{
     font-size: 32px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    min-height:calc(100vh - 440px);
     color: white;
     padding-top: 64px;
-    min-height:calc(100vh - 440px);
+
 }
 
 
 #footer{
     display: flex;
     justify-content: center;
+    
     padding-bottom: 24px;
     padding-top: 4px;
     background-color: rgb(220, 220, 220);
+
 }
 
 #footer ul{
@@ -74,11 +77,15 @@ nav ul a{
     text-decoration: none;
     color: rgb(0, 0, 0);
     font-weight: normal;
-    text-align: center;
 }
 
-#main p{
+#main section h2{
+    display: flex;
+    justify-content: center;
+}
 
+#main section p{
+    text-align: center;
     padding-left: 20%;
     padding-right: 20%;
     margin: 24px;
