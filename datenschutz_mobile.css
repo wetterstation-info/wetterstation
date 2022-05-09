@@ -3,7 +3,7 @@ html{
 }
 
 body{
-background-color:gray;
+background-color: grey;
 padding: 0px;
 margin: 0px;
 }
@@ -46,10 +46,11 @@ nav ul a{
 #main{
     font-size: 32px;
     display: flex;
-    justify-content: center;
-    color:rgb(220, 220, 220);
-    padding-top: 64px;
+    flex-direction: column;
     min-height:calc(100vh - 432px);
+    color: white;
+    padding-top: 64px;
+
 }
 
 
@@ -79,8 +80,13 @@ nav ul a{
     text-align: center;
 }
 
-#main p{
+#main section h2{
+    display: flex;
+    justify-content: center;
+}
 
+#main section p{
+    text-align: center;
     padding-left: 20%;
     padding-right: 20%;
     margin: 24px;
