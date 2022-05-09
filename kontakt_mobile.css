@@ -47,7 +47,7 @@ nav ul a{
     font-size: 32px;
     display: flex;
     flex-direction: column;
-    min-height:calc(100vh - 440px);
+    min-height:calc(100vh - 432px);
     color: white;
     padding-top: 64px;
 
@@ -57,26 +57,27 @@ nav ul a{
 #footer{
     display: flex;
     justify-content: center;
-    
-    padding-bottom: 24px;
-    padding-top: 4px;
+    padding-bottom: 12px;
+    padding-top: 16px;
     background-color: rgb(220, 220, 220);
-
 }
 
 #footer ul{
     padding: 0px;
+    display: flex;
+    justify-content: center;
     margin: 0px;
     padding-bottom: 16px;
 }
 
 #footer ul a{
-    padding: 20px;
-    float: left;
+    padding: 16px;
+    width: 150px;
     font-size: 20px;
     text-decoration: none;
     color: rgb(0, 0, 0);
     font-weight: normal;
+    text-align: center;
 }
 
 #main section h2{
