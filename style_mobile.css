@@ -3,7 +3,7 @@ html{
 }
 
 body{
-background-color:gray;
+background-color:#808080;
 padding: 0px;
 margin: 0px;
 }
@@ -79,9 +79,3 @@ nav ul a{
     text-align: center;
 }
 
-#main p{
-
-    padding-left: 20%;
-    padding-right: 20%;
-    margin: 24px;
-}
