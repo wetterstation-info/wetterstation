@@ -81,3 +81,7 @@ nav ul a{
     text-align: center;
 }
 
+#main iframe{
+padding: 16px;
+}
+
