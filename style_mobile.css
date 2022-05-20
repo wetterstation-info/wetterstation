@@ -52,6 +52,17 @@ nav ul a{
     min-height:calc(100vh - 432px);
 }
 
+#temperatur{
+width: 450px;
+float: left;
+margin-right: 16px;
+}
+#luftfeuchtigkeit{
+float: left;
+width: 450px;
+margin-left: 16px;
+}
+
 
 #footer{
     display: flex;

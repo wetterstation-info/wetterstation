@@ -47,13 +47,26 @@ nav ul a{
 
 #main{
     font-size: 32px;
-    display: flex;
-    justify-content: center;
+    
     color:rgb(220, 220, 220);
     padding-top: 64px;
     min-height:calc(100vh - 278.15px);
 }
+#main iframe{
+ margin-left: 16px;
+ margin-right: 16px;
+}
 
+#temperatur{
+    display: flex;
+    justify-content: center;
+}
+#luftfeuchtigkeit{
+    margin-top: 64px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 120px;
+}
 
 #footer{
     display: flex;
@@ -79,10 +92,5 @@ nav ul a{
     color: rgb(0, 0, 0);
     font-weight: normal;
     text-align: center;
-}
-
-#main iframe{
-padding: 2px;
-margin: 16px;
 }
 
