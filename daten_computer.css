@@ -68,12 +68,17 @@ nav ul a{
     padding-bottom: 120px;
 }
 
+
 #footer{
     display: flex;
     justify-content: center;
     padding-bottom: 12px;
     padding-top: 16px;
     background-color: rgb(220, 220, 220);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 #footer ul{
