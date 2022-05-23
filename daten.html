@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<head>
+<title>Wetterstation</title>
+<link rel="stylesheet" media="only screen and (min-device-width: 480px)" href="daten_computer.css" type="text/css" />
+<link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="daten_mobile.css" type="text/css" />
+
+
+</head>
+
+
+
+
+
+
+<body>
+
+
+   <div id="top"> 
+    <div id="logo">
+
+        <img src="Wetterstation-Logo.svg" alt="Wetterstation">
+    </div>
+
+<nav>
+<ul>
+    
+    <a href="/">Übersicht</a>
+    <a href="/daten.html">Daten</a>
+    <a href="#">Orte</a>
+    <a href="#">About it</a>
+</ul>
+
+
+</nav> 
+</div>
+<div id="main">
+<div id="daily">
+    <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1736377/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&median=daily&results=99999999999999999999999999999999999999999999999999999999999999999999999999999999&round=1&title=Temperatur&type=spline&xaxis=Zeit&yaxis=Temperatur&yaxismax=50&yaxismin=-10"></iframe>
+    <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1736377/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&median=daily&results=99999999999999999999999999999999999999999999999999999999999999999999999999999999&title=Luftfeuchtigkeit&type=spline&xaxis=Zeit&yaxis=Luftfeuchtigkeit&yaxismax=100&yaxismin=10"></iframe>
+</div>
+<div id="luftfeuchtigkeit">
+    <!--<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1736377/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&median=10&results=200&title=DHT11+Sensor&type=spline&xaxis=Zeit&yaxis=Luftfeuchtigkeit&yaxismax=100&yaxismin=10"></iframe>
+    <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1736377/widgets/465583"></iframe>-->
+</div>
+</div>
+<div id="footer">
+
+<ul>
+    <a href="/kontakt.html">Kontakt</a>
+    <a href="/datenschutz.html">Datenschutz</a>
+
+</ul>
+
+</div>
+
+</body>
+
+
+
+
+
+</html>
