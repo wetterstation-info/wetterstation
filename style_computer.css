@@ -57,11 +57,11 @@ nav ul a{
  margin-right: 16px;
 }
 
-#temperatur{
+.temperatur{
     display: flex;
     justify-content: center;
 }
-#luftfeuchtigkeit{
+.luftfeuchtigkeit{
     margin-top: 64px;
     display: flex;
     justify-content: center;

@@ -1,5 +1,6 @@
 html{
     font-family: Arial, Helvetica, sans-serif;
+
 }
 
 body{
@@ -45,22 +46,29 @@ nav ul a{
 
 #main{
     font-size: 32px;
-    display: flex;
-    justify-content: center;
     color:rgb(220, 220, 220);
-    padding-top: 64px;
+    padding-top: 12px;
     min-height:calc(100vh - 432px);
+    
 }
+#main iframe{
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 40px;
+   }
+.temperatur{
+margin-top: 32px;
+display: flex;
+justify-content: center;
+min-width: fit-content;
 
-#temperatur{
-width: 450px;
-float: left;
-margin-right: 16px;
+
 }
-#luftfeuchtigkeit{
-float: left;
-width: 450px;
-margin-left: 16px;
+.luftfeuchtigkeit{
+display: flex;
+justify-content: center;
+min-width: fit-content;
+
 }
 
 
@@ -70,6 +78,10 @@ margin-left: 16px;
     padding-bottom: 12px;
     padding-top: 16px;
     background-color: rgb(220, 220, 220);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 #footer ul{
