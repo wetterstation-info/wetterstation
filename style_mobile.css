@@ -21,7 +21,7 @@ margin: 0px;
 }
 
 #logo img{
-width: 80%;
+width: 700px
 
 }
 
@@ -48,7 +48,8 @@ nav ul a{
     font-size: 32px;
     color:rgb(220, 220, 220);
     padding-top: 12px;
-    min-height:calc(100vh - 432px);
+    padding-bottom: 32px;
+    min-height:calc(100vh - 392.2px);
     
 }
 #main iframe{
@@ -78,10 +79,7 @@ min-width: fit-content;
     padding-bottom: 12px;
     padding-top: 16px;
     background-color: rgb(220, 220, 220);
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
+
 }
 
 #footer ul{
