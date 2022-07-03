@@ -57,20 +57,7 @@ nav ul a{
     margin-right: 16px;
     margin-top: 40px;
    }
-.temperatur{
-margin-top: 32px;
-display: flex;
-justify-content: center;
-min-width: fit-content;
 
-
-}
-.luftfeuchtigkeit{
-display: flex;
-justify-content: center;
-min-width: fit-content;
-
-}
 
 
 #footer{

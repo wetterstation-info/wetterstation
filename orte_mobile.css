@@ -20,9 +20,9 @@ margin: 0px;
 }
 
 #logo img{
-width: 80%;
-
-}
+    width: 700px
+    
+    }
 
 nav{
     display: flex;
@@ -45,14 +45,17 @@ nav ul a{
 
 #main{
     font-size: 32px;
-    display: flex;
-    flex-direction: column;
-    min-height:calc(100vh - 432px);
-    color: white;
-    padding-top: 64px;
-
+    color:rgb(220, 220, 220);
+    padding-top: 12px;
+    padding-bottom: 32px;
+    min-height:calc(100vh - 392.2px);
+    
 }
 
+#main iframe{
+    transform: scale(1.8);
+    margin: 150px;
+    }
 
 #footer{
     display: flex;

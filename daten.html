@@ -1,4 +1,8 @@
 <!DOCTYPE html>
+<script type="text/javascript">
+    if (top.location.href != self.location.href)
+       top.location.href = self.location.href;
+  </script>
 
 <html>
 
@@ -38,14 +42,20 @@
 </nav> 
 </div>
 <div id="main">
-<div id="daily">
-    <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1736377/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&median=daily&results=99999999999999999999999999999999999999999999999999999999999999999999999999999999&round=1&title=Temperatur&type=spline&xaxis=Zeit&yaxis=Temperatur&yaxismax=50&yaxismin=-10"></iframe>
-    <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1736377/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&median=daily&results=99999999999999999999999999999999999999999999999999999999999999999999999999999999&title=Luftfeuchtigkeit&type=spline&xaxis=Zeit&yaxis=Luftfeuchtigkeit&yaxismax=100&yaxismin=10"></iframe>
-</div>
-<div id="luftfeuchtigkeit">
-    <!--<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1736377/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&median=10&results=200&title=DHT11+Sensor&type=spline&xaxis=Zeit&yaxis=Luftfeuchtigkeit&yaxismax=100&yaxismin=10"></iframe>
-    <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1736377/widgets/465583"></iframe>-->
-</div>
+    <div class="zeile1">
+        <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1767846/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&median=10&results=200&round=1&title=Temperatur&type=line&yaxismax=60&yaxismin=-10"></iframe>
+        <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1767846/charts/3?bgcolor=%23ffffff&color=%23d62020&dynamic=true&median=10&results=200&round=1&title=Luftfeuchtigkeit&type=line&yaxismax=100&yaxismin=0"></iframe>
+    </div>
+    <div class="zeile2">
+        <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1767846/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&median=10&results=200&round=1&title=Luftdruck&type=line&yaxismax=1035&yaxismin=800"></iframe>
+        <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1767846/charts/4?bgcolor=%23ffffff&color=%23d62020&dynamic=true&median=10&results=200&round=1&title=Windgeschwindigkeit&type=line&yaxismax=40&yaxismin=0"></iframe>
+    </div>
+    
+    <div class="zeile3">
+        <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1767846/charts/5?bgcolor=%23ffffff&color=%23d62020&dynamic=true&median=10&results=200&round=1&title=Neuer+Regen&type=line&yaxismax=5&yaxismin=0"></iframe>
+        <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1767846/charts/6?bgcolor=%23ffffff&color=%23d62020&dynamic=true&median=10&results=200&round=1&title=Lichteinstrahlung&type=line&yaxismax=100&yaxismin=0"></iframe>
+    </div>
+   
 </div>
 <div id="footer">
 

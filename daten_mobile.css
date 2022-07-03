@@ -20,9 +20,9 @@ margin: 0px;
 }
 
 #logo img{
-width: 80%;
-
-}
+    width: 700px
+    
+    }
 
 nav{
     display: flex;
@@ -45,23 +45,18 @@ nav ul a{
 
 #main{
     font-size: 32px;
-    display: flex;
-    justify-content: center;
     color:rgb(220, 220, 220);
-    padding-top: 64px;
-    min-height:calc(100vh - 432px);
+    padding-top: 12px;
+    padding-bottom: 32px;
+    min-height:calc(100vh - 392.2px);
+    
 }
-
-#daily{
-width: 450px;
-float: left;
-margin-right: 16px;
-}
-#luftfeuchtigkeit{
-float: left;
-width: 450px;
-margin-left: 16px;
-}
+    
+#main iframe{
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 40px;
+   }
 
 
 #footer{
