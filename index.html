@@ -1,5 +1,13 @@
 <!DOCTYPE html>
 
+<script>
+   async function ladeDaten(){
+    let res = await fetch('https://hfcn5i5aeg7uso5q.myfritz.net:8888/test/');
+    let json = await res.json();
+    console.log(json);
+    return json;
+}
+</script>
 <html>
 
 
