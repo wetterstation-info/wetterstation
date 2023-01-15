@@ -25,6 +25,17 @@ width: 700px
 
 }
 
+#sturmschäden{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 32px;  
+}
+
+#sturmschäden img{
+    width: 600px;
+    padding-bottom: 8px;
+}
+
 nav{
     display: flex;
     justify-content: center;
