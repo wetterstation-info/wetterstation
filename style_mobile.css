@@ -25,13 +25,13 @@ width: 700px
 
 }
 
-#sturmschäden{
+#umbau{
     display: flex;
     justify-content: center;
     padding-bottom: 32px;  
 }
 
-#sturmschäden img{
+#umbau img{
     width: 600px;
     padding-bottom: 8px;
 }
